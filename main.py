@@ -10,8 +10,8 @@ def main() :
 	print(salutations)
 	print(salutations.split(sep=" "))
  
-	###### exercice 01
-	print("exercice 01 #######################")
+###### exercice 01
+print("exercice 01 #######################")
 
    
 
@@ -29,7 +29,7 @@ print (phrase1 % (stock))
 print ("")
 
 
-	###### exercice 02
+###### exercice 02
 print("exercice 02 #######################")
 t =["Mary","Patricia","Linda","Barbara","Elizabeth","Jennifer","Maria","Susan","Margaret"]
 
@@ -39,7 +39,7 @@ for element in t:
 print ("")
 
 	
-	###### exercice 03
+###### exercice 03
 print("exercice 03 #######################")
 import itertools
 
@@ -50,46 +50,67 @@ reps = {'cdrom': 4, 'lib64': 4, 'root': 4, 'srv': 4, 'mnt': 8, 'snap': 8, 'lost+
 'sbin': 15416, 'bin': 15872, 'home': 99992, 'boot': 108272, 'opt': 116300, 'etc': 191872, 'swapfile': 385840,
 'lib': 616360, 'var': 647768, 'media': 1308416, 'usr': 3357908}
 
-for cle, valeur in reps.items():
-        print("l'élément de clé", cle, "vaut", valeur)
+print (reps)
+print ("")
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-	###### exercice 04
+ 	
+###### exercice 04
+  
 print("exercice 04 #######################")
 	
-	
+
+for cle, valeur in reps.items():
+  print("repertoire", cle, "taille","=" ,valeur)
+  print ("")
 
 
-	###### exercice 05
+###### exercice 05
 print("exercice 05 #######################")
-	
 
+for cle,valeur in reps.items():
+  if valeur > 10000 and valeur < 100000:
+   print("repertoir",cle," : taille = ",valeur)
+   print("")
 
-	###### exercice 06
+###### exercice 06
 print("exercice 06 #######################")
 
+tabSize = []
+
+
+for cle,valeur in reps.items():
+  tabSize = tabSize = [valeur]   
+  print(tabSize)
+print("")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
-	###### exercice 07
+###### exercice 07
 print("exercice 07 #######################")
 
 	
