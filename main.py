@@ -120,29 +120,21 @@ with open(r"liste_etudiants_admin_sys.csv") as lignes:
 ###### exercice 09
 print("exercice 09 #######################")
 	
-
-
 nomFichier = "liste_etudiants_admin_sys.csv"
 separateur = ";"
 
 def makeStudentClass (nomFichier,separateur):
-  reader = csv.DictReader(open(r"liste_etudiants_admin_sys.csv"))
-  newTab = {}
-  for row in reader:
-   k, v = row
-   newTab[k] = v
-  print(newTab)
+  lecture = csv.reader(open(r"liste_etudiants_admin_sys.csv"))
+  tab = {}
+  for row in lecture:
+   tab = print(row)
+   dico ={tab }
+   print (dico)
+   
+
 
 
 makeStudentClass(nomFichier,separateur)
-
-
-
-
-
-
-
-
 
 
 
