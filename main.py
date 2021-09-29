@@ -122,7 +122,19 @@ print("exercice 09 #######################")
 	
 
 
-def MakeStudentClass(str):
+nomFichier = "liste_etudiants_admin_sys.csv"
+separateur = ";"
+
+def makeStudentClass (nomFichier,separateur):
+  reader = csv.DictReader(open(r"liste_etudiants_admin_sys.csv"))
+  newTab = {}
+  for row in reader:
+   k, v = row
+   newTab[k] = v
+  print(newTab)
+
+
+makeStudentClass(nomFichier,separateur)
 
 
 
@@ -137,10 +149,6 @@ def MakeStudentClass(str):
 
 
 
-
-
-
-	
 ###### exercice 10
 print("exercice 10 #######################")
 	
