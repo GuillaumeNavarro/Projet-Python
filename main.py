@@ -84,42 +84,50 @@ for cle,valeur in reps.items():
 print("")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
 ###### exercice 07
 print("exercice 07 #######################")
 
-	
+tableau = [5,5,7,8]
+
+def totalSize(list):
+  somme = 0
+  longueur = len(tableau)
+  for i in range(longueur):
+    somme = somme + tableau[i]
+  print (somme)
+  
+totalSize(tableau)
 
 	
-	###### exercice 08
+###### exercice 08
 print("exercice 08 #######################")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			
-	###### exercice 09
+###### exercice 09
 print("exercice 09 #######################")
 	
 	
