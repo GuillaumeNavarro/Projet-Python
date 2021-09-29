@@ -128,8 +128,9 @@ def makeStudentClass (nomFichier,separateur):
   tab = {}
   for row in lecture:
    tab = print(row)
-   dico ={tab }
+   dico = {tab}
    print (dico)
+
    
 
 
@@ -138,12 +139,29 @@ makeStudentClass(nomFichier,separateur)
 
 
 
-
-
-
 ###### exercice 10
 print("exercice 10 #######################")
 	
+
+def compte ():
+
+  compte = input('Entrer le prenom et nom en 2 lettre (2x2)')
+  
+ 
+
+
+
+compte()
+
+
+
+
+
+
+
+
+
+
 ###### exercice 11
 print("exercice 11 #######################")
 	
