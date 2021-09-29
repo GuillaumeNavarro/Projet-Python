@@ -87,7 +87,7 @@ print("")
 ###### exercice 07
 print("exercice 07 #######################")
 
-tableau = [5,5,7,8]
+tableau = [4,4,4,4,8,8,16,76,2692,15416,15872,99992,108272,116300,191872,385840,616360,647768,1308416,3357908]
 
 def totalSize(list):
   somme = 0
@@ -105,33 +105,43 @@ print("exercice 08 #######################")
 
 
 
+import csv;
+ouvrire= open (r"liste_etudiants_admin_sys.csv")
+lecture = csv.reader(ouvrire)
+for row in lecture:
+ print(row)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+with open(r"liste_etudiants_admin_sys.csv") as lignes:
+   print(sum(1 for line in lignes))
 
 			
 ###### exercice 09
 print("exercice 09 #######################")
 	
+
+
+def MakeStudentClass(str):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
-	###### exercice 10
+###### exercice 10
 print("exercice 10 #######################")
 	
 ###### exercice 11
